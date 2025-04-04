@@ -53,7 +53,7 @@ public class Main {
                     System.out.println("Informe a aldeia do ninja:");
                     String aldeiaNinja = scanner.nextLine();
                     Ninja novoNinja = new Ninja(nomeNinja, idadeNinja, aldeiaNinja);
-                    ninjasList.add(novoNinja);
+                    ninjasList.addFirst(novoNinja);
                     System.out.println("Ninja " + nomeNinja + " adicionado com sucesso!");
                     break;
 
